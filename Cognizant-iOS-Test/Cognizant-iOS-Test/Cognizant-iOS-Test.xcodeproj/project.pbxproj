@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC3869C9265506F700CA3B8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3869C8265506F700CA3B8F /* AppDelegate.swift */; };
+		FC3869CB265506F700CA3B8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3869CA265506F700CA3B8F /* SceneDelegate.swift */; };
+		FC3869CD265506F700CA3B8F /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3869CC265506F700CA3B8F /* LoginScreenViewController.swift */; };
+		FC3869D0265506F700CA3B8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3869CE265506F700CA3B8F /* Main.storyboard */; };
+		FC3869D3265506F700CA3B8F /* Cognizant_iOS_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC3869D1265506F700CA3B8F /* Cognizant_iOS_Test.xcdatamodeld */; };
+		FC3869D5265506F900CA3B8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3869D4265506F900CA3B8F /* Assets.xcassets */; };
+		FC3869D8265506F900CA3B8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3869D6265506F900CA3B8F /* LaunchScreen.storyboard */; };
+		FC3869E3265506FA00CA3B8F /* Cognizant_iOS_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3869E2265506FA00CA3B8F /* Cognizant_iOS_TestTests.swift */; };
+		FC3869EE265506FA00CA3B8F /* Cognizant_iOS_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3869ED265506FA00CA3B8F /* Cognizant_iOS_TestUITests.swift */; };
+		FC5D7EB2265522750017693D /* AnimalsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5D7EB1265522750017693D /* AnimalsTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC3869DF265506FA00CA3B8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC3869BD265506F700CA3B8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC3869C4265506F700CA3B8F;
+			remoteInfo = "Cognizant-iOS-Test";
+		};
+		FC3869EA265506FA00CA3B8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC3869BD265506F700CA3B8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC3869C4265506F700CA3B8F;
+			remoteInfo = "Cognizant-iOS-Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC3869C5265506F700CA3B8F /* Cognizant-iOS-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cognizant-iOS-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3869C8265506F700CA3B8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC3869CA265506F700CA3B8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC3869CC265506F700CA3B8F /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		FC3869CF265506F700CA3B8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC3869D2265506F700CA3B8F /* Cognizant_iOS_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cognizant_iOS_Test.xcdatamodel; sourceTree = "<group>"; };
+		FC3869D4265506F900CA3B8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC3869D7265506F900CA3B8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC3869D9265506F900CA3B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3869DE265506FA00CA3B8F /* Cognizant-iOS-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cognizant-iOS-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3869E2265506FA00CA3B8F /* Cognizant_iOS_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cognizant_iOS_TestTests.swift; sourceTree = "<group>"; };
+		FC3869E4265506FA00CA3B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3869E9265506FA00CA3B8F /* Cognizant-iOS-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cognizant-iOS-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3869ED265506FA00CA3B8F /* Cognizant_iOS_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cognizant_iOS_TestUITests.swift; sourceTree = "<group>"; };
+		FC3869EF265506FA00CA3B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC5D7EB1265522750017693D /* AnimalsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC3869C2265506F700CA3B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3869DB265506FA00CA3B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3869E6265506FA00CA3B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC3869BC265506F700CA3B8F = {
+			isa = PBXGroup;
+			children = (
+				FC3869C7265506F700CA3B8F /* Cognizant-iOS-Test */,
+				FC3869E1265506FA00CA3B8F /* Cognizant-iOS-TestTests */,
+				FC3869EC265506FA00CA3B8F /* Cognizant-iOS-TestUITests */,
+				FC3869C6265506F700CA3B8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC3869C6265506F700CA3B8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC3869C5265506F700CA3B8F /* Cognizant-iOS-Test.app */,
+				FC3869DE265506FA00CA3B8F /* Cognizant-iOS-TestTests.xctest */,
+				FC3869E9265506FA00CA3B8F /* Cognizant-iOS-TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC3869C7265506F700CA3B8F /* Cognizant-iOS-Test */ = {
+			isa = PBXGroup;
+			children = (
+				FC5D7EBD265568670017693D /* Delegate */,
+				FC5D7EBC265568370017693D /* View Controllers */,
+				FC5D7EC1265568760017693D /* Visuals */,
+				FC5D7EC2265568A00017693D /* Other */,
+			);
+			path = "Cognizant-iOS-Test";
+			sourceTree = "<group>";
+		};
+		FC3869E1265506FA00CA3B8F /* Cognizant-iOS-TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC3869E2265506FA00CA3B8F /* Cognizant_iOS_TestTests.swift */,
+				FC3869E4265506FA00CA3B8F /* Info.plist */,
+			);
+			path = "Cognizant-iOS-TestTests";
+			sourceTree = "<group>";
+		};
+		FC3869EC265506FA00CA3B8F /* Cognizant-iOS-TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC3869ED265506FA00CA3B8F /* Cognizant_iOS_TestUITests.swift */,
+				FC3869EF265506FA00CA3B8F /* Info.plist */,
+			);
+			path = "Cognizant-iOS-TestUITests";
+			sourceTree = "<group>";
+		};
+		FC5D7EBC265568370017693D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC5D7EB1265522750017693D /* AnimalsTableViewController.swift */,
+				FC3869CC265506F700CA3B8F /* LoginScreenViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FC5D7EBD265568670017693D /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				FC3869C8265506F700CA3B8F /* AppDelegate.swift */,
+				FC3869CA265506F700CA3B8F /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		FC5D7EC1265568760017693D /* Visuals */ = {
+			isa = PBXGroup;
+			children = (
+				FC3869D6265506F900CA3B8F /* LaunchScreen.storyboard */,
+				FC3869CE265506F700CA3B8F /* Main.storyboard */,
+				FC3869D4265506F900CA3B8F /* Assets.xcassets */,
+			);
+			path = Visuals;
+			sourceTree = "<group>";
+		};
+		FC5D7EC2265568A00017693D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FC3869D9265506F900CA3B8F /* Info.plist */,
+				FC3869D1265506F700CA3B8F /* Cognizant_iOS_Test.xcdatamodeld */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC3869C4265506F700CA3B8F /* Cognizant-iOS-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC3869F2265506FA00CA3B8F /* Build configuration list for PBXNativeTarget "Cognizant-iOS-Test" */;
+			buildPhases = (
+				FC3869C1265506F700CA3B8F /* Sources */,
+				FC3869C2265506F700CA3B8F /* Frameworks */,
+				FC3869C3265506F700CA3B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cognizant-iOS-Test";
+			productName = "Cognizant-iOS-Test";
+			productReference = FC3869C5265506F700CA3B8F /* Cognizant-iOS-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC3869DD265506FA00CA3B8F /* Cognizant-iOS-TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC3869F5265506FA00CA3B8F /* Build configuration list for PBXNativeTarget "Cognizant-iOS-TestTests" */;
+			buildPhases = (
+				FC3869DA265506FA00CA3B8F /* Sources */,
+				FC3869DB265506FA00CA3B8F /* Frameworks */,
+				FC3869DC265506FA00CA3B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC3869E0265506FA00CA3B8F /* PBXTargetDependency */,
+			);
+			name = "Cognizant-iOS-TestTests";
+			productName = "Cognizant-iOS-TestTests";
+			productReference = FC3869DE265506FA00CA3B8F /* Cognizant-iOS-TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC3869E8265506FA00CA3B8F /* Cognizant-iOS-TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC3869F8265506FA00CA3B8F /* Build configuration list for PBXNativeTarget "Cognizant-iOS-TestUITests" */;
+			buildPhases = (
+				FC3869E5265506FA00CA3B8F /* Sources */,
+				FC3869E6265506FA00CA3B8F /* Frameworks */,
+				FC3869E7265506FA00CA3B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC3869EB265506FA00CA3B8F /* PBXTargetDependency */,
+			);
+			name = "Cognizant-iOS-TestUITests";
+			productName = "Cognizant-iOS-TestUITests";
+			productReference = FC3869E9265506FA00CA3B8F /* Cognizant-iOS-TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC3869BD265506F700CA3B8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FC3869C4265506F700CA3B8F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					FC3869DD265506FA00CA3B8F = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FC3869C4265506F700CA3B8F;
+					};
+					FC3869E8265506FA00CA3B8F = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FC3869C4265506F700CA3B8F;
+					};
+				};
+			};
+			buildConfigurationList = FC3869C0265506F700CA3B8F /* Build configuration list for PBXProject "Cognizant-iOS-Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC3869BC265506F700CA3B8F;
+			productRefGroup = FC3869C6265506F700CA3B8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC3869C4265506F700CA3B8F /* Cognizant-iOS-Test */,
+				FC3869DD265506FA00CA3B8F /* Cognizant-iOS-TestTests */,
+				FC3869E8265506FA00CA3B8F /* Cognizant-iOS-TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC3869C3265506F700CA3B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3869D8265506F900CA3B8F /* LaunchScreen.storyboard in Resources */,
+				FC3869D5265506F900CA3B8F /* Assets.xcassets in Resources */,
+				FC3869D0265506F700CA3B8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3869DC265506FA00CA3B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3869E7265506FA00CA3B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC3869C1265506F700CA3B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3869CD265506F700CA3B8F /* LoginScreenViewController.swift in Sources */,
+				FC3869D3265506F700CA3B8F /* Cognizant_iOS_Test.xcdatamodeld in Sources */,
+				FC3869C9265506F700CA3B8F /* AppDelegate.swift in Sources */,
+				FC5D7EB2265522750017693D /* AnimalsTableViewController.swift in Sources */,
+				FC3869CB265506F700CA3B8F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3869DA265506FA00CA3B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3869E3265506FA00CA3B8F /* Cognizant_iOS_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3869E5265506FA00CA3B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3869EE265506FA00CA3B8F /* Cognizant_iOS_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC3869E0265506FA00CA3B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC3869C4265506F700CA3B8F /* Cognizant-iOS-Test */;
+			targetProxy = FC3869DF265506FA00CA3B8F /* PBXContainerItemProxy */;
+		};
+		FC3869EB265506FA00CA3B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC3869C4265506F700CA3B8F /* Cognizant-iOS-Test */;
+			targetProxy = FC3869EA265506FA00CA3B8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC3869CE265506F700CA3B8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC3869CF265506F700CA3B8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC3869D6265506F900CA3B8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC3869D7265506F900CA3B8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC3869F0265506FA00CA3B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC3869F1265506FA00CA3B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC3869F3265506FA00CA3B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A9NA3SLD6;
+				INFOPLIST_FILE = "Cognizant-iOS-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jjames.Cognizant-iOS-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC3869F4265506FA00CA3B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A9NA3SLD6;
+				INFOPLIST_FILE = "Cognizant-iOS-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jjames.Cognizant-iOS-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC3869F6265506FA00CA3B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A9NA3SLD6;
+				INFOPLIST_FILE = "Cognizant-iOS-TestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jjames.Cognizant-iOS-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cognizant-iOS-Test.app/Cognizant-iOS-Test";
+			};
+			name = Debug;
+		};
+		FC3869F7265506FA00CA3B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A9NA3SLD6;
+				INFOPLIST_FILE = "Cognizant-iOS-TestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jjames.Cognizant-iOS-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cognizant-iOS-Test.app/Cognizant-iOS-Test";
+			};
+			name = Release;
+		};
+		FC3869F9265506FA00CA3B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A9NA3SLD6;
+				INFOPLIST_FILE = "Cognizant-iOS-TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jjames.Cognizant-iOS-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cognizant-iOS-Test";
+			};
+			name = Debug;
+		};
+		FC3869FA265506FA00CA3B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A9NA3SLD6;
+				INFOPLIST_FILE = "Cognizant-iOS-TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jjames.Cognizant-iOS-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cognizant-iOS-Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC3869C0265506F700CA3B8F /* Build configuration list for PBXProject "Cognizant-iOS-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3869F0265506FA00CA3B8F /* Debug */,
+				FC3869F1265506FA00CA3B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC3869F2265506FA00CA3B8F /* Build configuration list for PBXNativeTarget "Cognizant-iOS-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3869F3265506FA00CA3B8F /* Debug */,
+				FC3869F4265506FA00CA3B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC3869F5265506FA00CA3B8F /* Build configuration list for PBXNativeTarget "Cognizant-iOS-TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3869F6265506FA00CA3B8F /* Debug */,
+				FC3869F7265506FA00CA3B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC3869F8265506FA00CA3B8F /* Build configuration list for PBXNativeTarget "Cognizant-iOS-TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3869F9265506FA00CA3B8F /* Debug */,
+				FC3869FA265506FA00CA3B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC3869D1265506F700CA3B8F /* Cognizant_iOS_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC3869D2265506F700CA3B8F /* Cognizant_iOS_Test.xcdatamodel */,
+			);
+			currentVersion = FC3869D2265506F700CA3B8F /* Cognizant_iOS_Test.xcdatamodel */;
+			path = Cognizant_iOS_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FC3869BD265506F700CA3B8F /* Project object */;
+}

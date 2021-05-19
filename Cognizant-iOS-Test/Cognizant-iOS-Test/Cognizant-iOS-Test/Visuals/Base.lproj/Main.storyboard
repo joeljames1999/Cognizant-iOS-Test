@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login Screen View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LoginScreenViewController" customModule="Cognizant_iOS_Test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PSy-hR-Obb">
+                                <rect key="frame" x="82" y="173" width="250" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a2D-Yy-ger">
+                                <rect key="frame" x="82" y="291.5" width="250" height="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ai-z5-e8g">
+                                <rect key="frame" x="82" y="397" width="250" height="100"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="jtw-cN-7Gf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="LOGIN">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kjc-N2-p4W"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="PSy-hR-Obb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="129" id="9d5-sJ-K8R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Ai-z5-e8g" secondAttribute="trailing" constant="82" id="KPN-N3-XzH"/>
+                            <constraint firstItem="a2D-Yy-ger" firstAttribute="top" secondItem="PSy-hR-Obb" secondAttribute="bottom" constant="78.5" id="PXg-Wc-Jj3"/>
+                            <constraint firstItem="7Ai-z5-e8g" firstAttribute="top" secondItem="a2D-Yy-ger" secondAttribute="bottom" constant="67.5" id="TZS-AV-xKB"/>
+                            <constraint firstItem="7Ai-z5-e8g" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="82" id="baD-ml-KeR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PSy-hR-Obb" secondAttribute="trailing" constant="82" id="rgR-AL-Tsj"/>
+                            <constraint firstItem="a2D-Yy-ger" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="82" id="sx9-4J-bnu"/>
+                            <constraint firstItem="PSy-hR-Obb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="82" id="yCG-RJ-byk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a2D-Yy-ger" secondAttribute="trailing" constant="82" id="yS6-ce-JEK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="loginButton" destination="7Ai-z5-e8g" id="Gjb-mX-r4T"/>
+                        <outlet property="passwordTextField" destination="a2D-Yy-ger" id="ho4-zh-hOF"/>
+                        <outlet property="usernameTextField" destination="PSy-hR-Obb" id="Pve-bn-6j7"/>
+                        <segue destination="VWP-jG-g1z" kind="presentation" identifier="loginSegue" modalPresentationStyle="fullScreen" id="POo-Vg-9MQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-96" y="88"/>
+        </scene>
+        <!--Animal Table View Controller-->
+        <scene sceneID="SzE-Ak-izb">
+            <objects>
+                <viewController id="VWP-jG-g1z" customClass="AnimalTableViewController" customModule="Cognizant_iOS_Test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="o1q-Ds-5wQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="nLt-cO-Bpx"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="B3T-kl-88q"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Urs-Ge-t2G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="821.73913043478262" y="88.392857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
